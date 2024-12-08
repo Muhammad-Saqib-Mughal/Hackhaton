@@ -19,3 +19,40 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.hfirst{
+background-image: url(/images/home/mainpic.png);
+width: 98.75vw;
+height: 100vh;
+background-repeat: no-repeat
+
+}
+
+.formal{
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.party{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+@media (min-width: 10px) and (max-width: 1024px) {
+  .hfirst{
+    background-image: none ;
+    background-color:#F2F0F1;
+    ;
+  }
+  .formal{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .party{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .gridf{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+}
