@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function Hfirst() {
   return (
@@ -9,28 +10,40 @@ function Hfirst() {
           <h1 className='text-6xl font-bold w-[83%] lg:w-[100%] lg:text-3xl'>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
           <p className='w-[83%] lg:w-[90%] text-base text-gray-500'>Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
           <span className='w-[83%] lg:w-[100vw] lg:flex lg:justify-center '>
-            <button className='h-[52px] w-[210px] bg-black text-white rounded-full self-start'>Shop now</button>
+          <div className='flex flex-col mt-3 gap-1'>
+
+            <Link href={'/cart'}>
+              <button className=" h-[52px] w-[210px] bg-black text-white rounded-full self-start ">Cart</button>
+            </Link>
+            <Link href={'/product-detail'}>
+              <button className=" h-[52px] w-[210px] bg-black text-white rounded-full self-start ">detail</button>
+            </Link>
+            <Link href={'/category'}>
+              <button className=" h-[52px] w-[210px] bg-black text-white rounded-full self-start ">Category</button>
+            </Link>
+
+          </div>
           </span>
           <div>
-            
+
           </div>
           <div className='hidden lg:block'>
 
-          <div className='flex gap-3 '>
-            <span className='flex flex-col'>
-              <span className='font-bold'>200+</span>
-              <span className='text-xs text-gray-500'>International Brands</span>
-            </span>
+            <div className='flex gap-3 '>
+              <span className='flex flex-col'>
+                <span className='font-bold'>200+</span>
+                <span className='text-xs text-gray-500'>International Brands</span>
+              </span>
               <hr />
-            <span className='flex flex-col'>
-              <span className='font-bold'>2000+</span>
-              <span className='text-xs text-gray-500'>High-Quality Products</span>
-            </span>
-          </div>
+              <span className='flex flex-col'>
+                <span className='font-bold'>2000+</span>
+                <span className='text-xs text-gray-500'>High-Quality Products</span>
+              </span>
+            </div>
           </div>
 
           <div className='hidden lg:block'>
-          <span className='flex flex-col'>
+            <span className='flex flex-col'>
               <span className='font-bold'>30,000+</span>
               <span className='text-xs text-gray-500'>Happy Customers</span>
             </span>

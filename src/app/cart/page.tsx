@@ -5,6 +5,8 @@ import Footer from '../components/Footer'
 function Cart() {
     return (
         <>
+        <div className='overflow-x-hidden'>
+
             <Navbar></Navbar>
 
             <div className='p-5'>
@@ -170,6 +172,8 @@ function Cart() {
 
 
         <Footer></Footer>
+        </div>
+
 
         </>
     )

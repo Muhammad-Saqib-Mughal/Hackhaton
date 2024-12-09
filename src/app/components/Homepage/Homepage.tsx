@@ -11,6 +11,8 @@ import Footer from '../Footer'
 function Homepage() {
   return (
     <>
+    <div className='overflow-x-hidden'>
+
     <Navbar></Navbar>
     <Hfirst></Hfirst>
     <Hsecond></Hsecond>
@@ -18,6 +20,7 @@ function Homepage() {
     <Hforth></Hforth>
     <Hfifth></Hfifth>
     <Footer></Footer>
+    </div>
     </>
   )
 }

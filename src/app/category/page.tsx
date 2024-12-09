@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 
 function page() {
     return (
-        <div>
+        <div className='overflow-x-hidden'>
             <Navbar></Navbar>
             <C1></C1>
             <Footer></Footer>

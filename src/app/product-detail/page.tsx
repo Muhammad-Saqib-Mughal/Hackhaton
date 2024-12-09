@@ -5,7 +5,7 @@ import Detail from '../components/Product/Detail'
 
 function page() {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Detail></Detail>
     </div>
   )

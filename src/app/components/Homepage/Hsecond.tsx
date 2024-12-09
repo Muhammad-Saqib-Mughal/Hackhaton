@@ -8,6 +8,8 @@ function Hsecond() {
         <img src="/images/home/zara.png" alt="" />
         <img src="/images/home/gucci.png" alt="" />
         <img  src="/images/home/prada.png" alt="" />
+        <img  src="/images/home/ck.png" alt="" />
+
     </div>
 
     <div className='h-auto  bg-black  px-6 space-y-3 hidden lg:block '>

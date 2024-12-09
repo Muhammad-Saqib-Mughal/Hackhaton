@@ -167,7 +167,7 @@ function Hthird() {
 
 
 
-                        <div className='lg: hidden' >
+                        <div className='lg:hidden' >
                             <img src="/images/home/p2.png" alt="" />
                             <p className='text-xl font-bold'>LOOSE FIT BERMUDA SHORTS</p>
                             <div className=' flex gap-1'>
@@ -190,7 +190,7 @@ function Hthird() {
 
 
 
-                        <div  className='lg: hidden'>
+                        <div  className='lg:hidden'>
                             <img src="/images/home/p3.png" alt="" />
                             <p className='text-xl font-bold'>FADED SKINNY JEANS</p>
                             <div className=' flex gap-1'>
