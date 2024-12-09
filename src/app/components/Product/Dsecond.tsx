@@ -3,7 +3,7 @@ import React from 'react'
 function Dsecond() {
     return (
         <>
-            <div className='flex justify-around items-end space-y-4'>
+            <div className='flex justify-around items-end space-y-4 w-[90%]'>
                 <div className='text-xl'>Product Details</div>
                 <div className='flex flex-col items-center'>
                     <span className='font-bold text-xl'>Rating & Reviews</span>
@@ -15,22 +15,22 @@ function Dsecond() {
             <hr />
 
 
-            <div className='flex justify-between items-center mt-7'>
-                <div><span className='text-2xl font-bold'>All Reviews</span> <span className='text-gray-500'>(451)</span></div>
+            <div className='flex justify-between items-center mt-7 lg:w-[90%]'>
+                <div><span className='text-2xl lg:text-xl font-bold'>All Reviews</span> <span className='text-gray-500'>(451)</span></div>
                 <div className='flex gap-5'>
                     <div className='bg-[#F0F0F0] w-9 h-9 flex items-center justify-center rounded-full'><img src="/images/detail/filter.png" alt="" /></div>
-                    <div className='bg-[#F0F0F0] p-2 w-40 h-9 flex justify-between items-center rounded-full '>
+                    <div className='bg-[#F0F0F0] lg:hidden p-2 w-40 h-9 flex justify-between items-center rounded-full '>
                         <span>latest</span>
                         <img src="/images/detail/down.png" alt="" />
                     </div>
-                    <button className='bg-black text-white h-9 w-44 rounded-full'>Write a Review</button>
+                    <button className='bg-black text-white h-9 w-44  lg:w-auto lg:text-sm rounded-full'>Write a Review</button>
                 </div>
             </div>
 
 
 
 
-            <div className='space-y-5'>
+            <div className='space-y-5 lg:w-[95vw]'>
 
 
                 <div className='grid grid-cols-2 items-center justify-center p-5 gap-5 lg:grid-cols-1'>

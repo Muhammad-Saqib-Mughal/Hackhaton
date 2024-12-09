@@ -3,12 +3,12 @@ import React from 'react'
 function c1() {
     return (
         <>
-            <div className='px-16 py-4'>
-                <div className='space-y-3'>
+            <div className=' py-4'>
+                <div className=' px-16 space-y-3'>
                     Home &gt; Casual
                 </div>
 
-                <div className='p-3 flex gap-6'>
+                <div className='p-3 flex gap-6 lg:justify-center'>
 
                     <div className='w-[25%] flex flex-col border lg:hidden'>
                         <div className=' space-y-5 '>
@@ -192,9 +192,9 @@ function c1() {
                             <div>
                                 <img src="/images/detail/2.png" alt="" />
                                 <p className='text-lg font-bold'>Gradient Graphic T-shirt</p>
-                                <div className=' flex gap-1'>
-                                    <img src="/images/category/3.5stars.png" alt="" />
-                                    <span>3.5 <span className='text-gray-400'>/5</span></span>
+                                <div className=' flex gap-1 items-center'>
+                                    <img className='lg:w-24' src="/images/category/3.5stars.png" alt="" />
+                                    <span className='flex lg:text-xs'>3.5 <span className='text-gray-400'>/5</span></span>
                                 </div>
 
                                 <div className='text-2xl font-bold'>$145</div>
@@ -210,9 +210,9 @@ function c1() {
                             <div>
                                 <img src="/images/detail/3.png" alt="" />
                                 <p className='text-lg font-bold'>Polo with Tipping Details</p>
-                                <div className=' flex gap-1'>
-                                    <img src="/images/category/frame.png" alt="" />
-                                    <span>4.5 <span className='text-gray-400'>/5</span></span>
+                                <div className=' flex gap-1 items-center'>
+                                    <img className='lg:w-24' src="/images/category/frame.png" alt="" />
+                                    <span className='flex lg:text-xs'>4.5 <span className='text-gray-400'>/5</span></span>
                                 </div>
 
                                 <div className='text-2xl font-bold'>$180</div>
@@ -231,12 +231,12 @@ function c1() {
                             <div>
                                 <img src="/images/detail/4.png" alt="" />
                                 <p className='text-lg font-bold'>Black Striped T-shirt</p>
-                                <div className=' flex gap-1'>
-                                    <img src="/images/category/5stars.png" alt="" />
-                                    <span>5.0 <span className='text-gray-400'>/5</span></span>
+                                <div className=' flex gap-1 items-center'>
+                                    <img className='lg:w-24' src="/images/category/5stars.png" alt="" />
+                                    <span className='flex lg:text-xs'>5.0 <span className='text-gray-400'>/5</span></span>
                                 </div>
 
-                                <div className='text-2xl flex font-bold space-x-3'>
+                                <div className='text-2xl  flex font-bold space-x-3 lg:space-x-1  lg:text-lg '>
                                     <span>$120</span>
                                     <span className='line-through text-gray-500 '>$150</span>
                                     <span className='bg-red-200 text-red-500 text-md rounded-full w-[58px] h-[28px] text-sm flex items-center justify-center '>-30%</span>
@@ -249,12 +249,12 @@ function c1() {
                             <div>
                                 <img src="/images/category/p1.png" alt="" />
                                 <p className='text-lg font-bold'>SKINNY FIT JEANS</p>
-                                <div className=' flex gap-1'>
-                                    <img src="/images/category/3.5stars.png" alt="" />
-                                    <span>3.5 <span className='text-gray-400'>/5</span></span>
+                                <div className=' flex gap-1 items-center'>
+                                    <img className='lg:w-24' src="/images/category/3.5stars.png" alt="" />
+                                    <span className='flex lg:text-xs'>3.5 <span className='text-gray-400'>/5</span></span>
                                 </div>
 
-                                <div className='text-2xl flex font-bold space-x-3'>
+                                <div className='text-2xl flex font-bold space-x-3 lg:space-x-1  lg:text-lg '>
                                     <span>$240</span>
                                     <span className='line-through text-gray-500 '>$260</span>
                                     <span className='bg-red-200 text-red-500 text-md rounded-full w-[58px] h-[28px] text-sm flex items-center justify-center '>-20%</span>
@@ -267,10 +267,10 @@ function c1() {
                             <div>
                                 <img src="/images/category/s2.png" alt="" />
                                 <p className='text-lg font-bold'>CHECKERED SHIRT</p>
-                                <div className=' flex gap-1'>
-                                    <img src="/images/category/4.5stars.png" alt="" />
+                                <div className=' flex gap-1 items-center'>
+                                    <img className='lg:w-24' src="/images/category/4.5stars.png" alt="" />
 
-                                    <span>4.5 <span className='text-gray-400'>/5</span></span>
+                                    <span className='flex lg:text-xs'>4.5 <span className='text-gray-400'>/5</span></span>
                                 </div>
 
                                 <div className='text-2xl font-bold'>$180</div>
@@ -284,13 +284,13 @@ function c1() {
                             <div>
                                 <img src="/images/category/s3.png" alt="" />
                                 <p className='text-lg font-bold'>T-SHIRT WITH TAPE DETAILS</p>
-                                <div className=' flex gap-1'>
-                                    <img src="/images/category/frame.png" alt="" />
+                                <div className=' flex gap-1 items-center'>
+                                    <img className='lg:w-24' src="/images/category/frame.png" alt="" />
 
-                                    <span>4.5 <span className='text-gray-400'>/5</span></span>
+                                    <span className='flex lg:text-xs'>4.5 <span className='text-gray-400'>/5</span></span>
                                 </div>
 
-                                <div className='text-2xl flex font-bold space-x-3'>
+                                <div className='text-2xl flex font-bold space-x-3 lg:space-x-1  lg:text-lg '>
                                     <span>$130</span>
                                     <span className='line-through text-gray-500 '>$160</span>
                                     <span className='bg-red-200 text-red-500 text-md rounded-full w-[58px] h-[28px] text-sm flex items-center justify-center '>-30%</span>
@@ -364,21 +364,21 @@ function c1() {
 
 
 
-                        <div className='flex justify-evenly items-center'>
-                            <div className='w-28 h-9 flex items-center justify-around border rounded-xl'>
+                        <div className='flex justify-evenly items-center lg:w-[120%]'>
+                            <div className='w-28 lg:w-20  h-9 flex items-center justify-around border rounded-xl'>
                                 <img src="images/category/back.png" alt="" />
                                 <span>Previous</span>
                             </div>
                             <div className='flex gap-2 items-center justify-center'>
-                                <div className='w-10 h-10 flex items-center justify-center bg-[#F0F0F0]'>1</div>
-                                <div className='w-10 h-10 flex items-center justify-center '>2</div>
-                                <div className='w-10 h-10 flex items-center justify-center '>3</div>
-                                <div className='w-10 h-10 flex items-center justify-center '>...</div>
-                                <div className='w-10 h-10 flex items-center justify-center '>8</div>
-                                <div className='w-10 h-10 flex items-center justify-center '>9</div>
-                                <div className='w-10 h-10 flex items-center justify-center '>10</div>
+                                <div className='w-10 h-10 lg:w-6 lg:h-6 flex items-center justify-center bg-[#F0F0F0]'>1</div>
+                                <div className='w-10 h-10 lg:hidden flex items-center justify-center '>2</div>
+                                <div className='w-10 h-10 lg:w-6 lg:h-6 flex items-center justify-center '>3</div>
+                                <div className='w-10 h-10 lg:w-6 lg:h-6 flex items-center justify-center '>...</div>
+                                <div className='w-10 h-10 lg:hidden flex items-center justify-center '>8</div>
+                                <div className='w-10 h-10 lg:w-6 lg:h-6 flex items-center justify-center '>9</div>
+                                <div className='w-10 h-10 lg:w-6 lg:h-6 flex items-center justify-center '>10</div>
                             </div>
-                            <div className='w-28 h-9 flex items-center justify-around border rounded-xl'>
+                            <div className='w-28 lg:w-20 h-9 flex items-center justify-around border rounded-xl'>
                                 <span>Next</span>
                                 <img src="images/category/4wd.png" alt="" />
                             </div>

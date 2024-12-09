@@ -15,7 +15,7 @@ export default {
       screens: {
         'sm': {'max': '640px'},
         'md': {'max': '768px'},
-        'lg': {'min': '10px', 'max': '1024px'},
+        'lg': {'min': '10px', 'max': '1200px'},
       },
     },
   },

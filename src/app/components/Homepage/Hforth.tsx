@@ -6,7 +6,7 @@ function Hforth() {
             <div className='mt-16 flex p-4 items-center justify-center'>
                 <div className='p-10 bg-[#F0F0F0] h-[866px] lg:h-auto lg:w-auto w-[1239px]  space-y-24 flex items-center flex-col'>
                     <div>
-                        <h1 className='text-5xl font-bold'>BROWSE BY dress STYLE</h1>
+                        <h1 className='text-5xl lg:text-3xl font-bold'>BROWSE BY Dress STYLE</h1>
                     </div>
 
 

@@ -3,11 +3,11 @@ import React from 'react'
 function Dfirst() {
     return (
         <>
-            <div className='px-16 py-4'>
-                <div className='w-auto '>Home &gt; Shop &gt; Men &gt; T-shirts </div>
+            <div className=' py-4'>
+                <div className='w-auto px-16 '>Home &gt; Shop &gt; Men &gt; T-shirts </div>
                 <div className='flex space-x-3 lg:flex-col'>
-                    <div className='w-1/2 lg:w-11/12 flex space-x-3 gap-3 lg:gap-0 lg:flex-col'>
-                        <div className='grid grid-rows-3 gap-3 lg:grid-cols-3'>
+                    <div className='w-1/2 lg:w-11/12 flex space-x-3 lg:space-x-0 lg:space-y-3 gap-3 lg:gap-0 lg:flex-col'>
+                        <div className='grid grid-rows-3 gap-3 lg:gap-1 lg:grid-cols-3 lg:grid-rows-1' >
                             <img src="/images/detail/s1.png" alt="" />
                             <img src="/images/detail/s2.png" alt="" />
                             <img src="/images/detail/s3.png" alt="" />
@@ -18,9 +18,9 @@ function Dfirst() {
                         </div>
                     </div>
 
-                    <div className='w-1/2 lg:w-11/12 p-3 space-y-4'>
+                    <div className='w-1/2 lg:w-11/12 p-3 lg:p-0 space-y-4'>
                         <div className='flex flex-col space-y-2 '>
-                            <h1 className='text-[40px] font-bold'>One Life Graphic T-shirt</h1>
+                            <h1 className='text-[40px] lg:text-2xl font-bold'>One Life Graphic T-shirt</h1>
                             <div className='flex gap-5'><img src="/images/detail/frame.png" alt="" />
                                 <span>4.5 <span className='text-gray-500'>/5</span></span>
                             </div>
@@ -52,7 +52,7 @@ function Dfirst() {
 
                         <div className='space-y-2'>
                             <h1 className='text-gray-500' >Choose Size</h1>
-                            <div className='flex gap-5'>
+                            <div className='flex gap-5  w-[90%]'>
                                 <button className='bg-[#F0F0F0] w-20 h-10 rounded-full' >Small</button>
                                 <button className='bg-[#F0F0F0] w-20 h-10 rounded-full' >Medium</button>
                                 <button className='bg-black text-white w-20 h-10 rounded-full' >large</button>
@@ -63,13 +63,13 @@ function Dfirst() {
 
                         <hr />
 
-                        <div className='flex space-x-3 gap-3'>
+                        <div className='flex space-x-3 gap-3 lg:w-[90%]'>
                             <div className='bg-[#F0F0F0] flex w-40 h-12 justify-around items-center rounded-full'>
                                 <img src="/images/detail/minus.png" alt="" />
                                 <span>1</span>
                                 <img src="/images/detail/plus.png" alt="" />
                             </div>
-                            <button className='bg-black text-white w-96 h-12 rounded-full'>Add to Cart</button>
+                            <button className='bg-black text-white w-96 lg:w-44 h-12 rounded-full'>Add to Cart</button>
                         </div>
 
 

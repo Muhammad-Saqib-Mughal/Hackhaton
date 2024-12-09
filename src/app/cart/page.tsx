@@ -13,8 +13,8 @@ function Cart() {
                 <div className='font-bold text-4xl px-12'>Your cart</div>
 
                 <div className='flex gap-4 lg:flex-col'>
-                    <div className='space-y-4 border w-[55vw] p-8 rounded-2xl'>
-                        <div className=' w-[667px] lg:w-auto flex gap-4'>
+                    <div className='space-y-4 border w-[55vw] lg:w-[90vw] p-8 lg:p-0 rounded-2xl'>
+                        <div className=' lg:w-[100%] flex gap-4'>
                             <div><img src="/images/cart/1.png" alt="" /></div>
                             <div className='w-full'>
                                 <div className='flex justify-between'>
@@ -47,7 +47,7 @@ function Cart() {
 
 
 
-                        <div className=' w-[667px] lg:w-auto flex gap-4'>
+                        <div className='  lg:w-auto flex gap-4'>
                             <div><img src="/images/cart/2.png" alt="" /></div>
                             <div className='w-full'>
                                 <div className='flex justify-between'>
@@ -81,7 +81,7 @@ function Cart() {
 
 
 
-                        <div className=' w-[667px] lg:w-auto flex gap-4'>
+                        <div className=' lg:w-auto flex gap-4'>
                             <div><img src="/images/cart/3.png" alt="" /></div>
                             <div className='w-full'>
                                 <div className='flex justify-between'>

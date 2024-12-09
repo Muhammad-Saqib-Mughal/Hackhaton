@@ -8,11 +8,11 @@ function Navbar() {
 
 
             <div className='bg-black text-white flex items-center justify-center w-full'>
-                <span className=''>Sign up and get 20% off to your first order.</span>
-                <span className='underline cursor-pointer'>Sign Up Now</span>
+                <span className='text-sm'>Sign up and get 20% off to your first order.</span>
+                <span className='underline cursor-pointer text-xs'>Sign Up Now</span>
             </div>
 
-            <div className='flex items-center w-[90%] h-[70px] gap-6 self-center'>
+            <div className='flex items-center w-[90%] h-[70px] gap-6 self-center lg:justify-between'>
                 <img className='hidden lg:block' src="/images/nav/ham.png" alt="" />
                 <div className="logo font-bold text-[32px]">SHOP.CO</div>
                 <div className='flex items-center gap-6 lg:justify-end'>

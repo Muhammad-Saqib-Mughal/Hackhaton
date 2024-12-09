@@ -8,12 +8,12 @@ function Hthird() {
 
                 <div className=' flex flex-col items-center space-y-10'>
                     <div>
-                        <h1 className='text-5xl font-bold'>NEW ARRIVALS</h1>
+                        <h1 className='text-5xl lg:text-3xl font-bold'>NEW ARRIVALS</h1>
                     </div>
                     <div className='grid grid-cols-4 items-center justify-center gap-6 lg:grid-cols-2 lg:gap-1'>
 
 
-                        <div>
+                        <div className='w-auto'>
                             <img src="/images/home/s1.png" alt="" />
                             <p className='text-xl font-bold'>T-SHIRT WITH TAPE DETAILS</p>
                             <div className=' flex gap-1'>
@@ -32,7 +32,7 @@ function Hthird() {
 
 
 
-                        <div>
+                        <div className='w-auto'>
                             <img src="/images/home/p1.png" alt="" />
                             <p className='text-xl font-bold'>SKINNY FIT JEANS</p>
                             <div className=' flex gap-1'>
@@ -83,7 +83,7 @@ function Hthird() {
 
                         <div className='lg:hidden' >
                             <img src="/images/home/s3.png" alt="" />
-                            <p className='text-xl font-bold'>T-SHIRT WITH TAPE DETAILS</p>
+                            <p className='text-xl font-bold '>T-SHIRT WITH TAPE DETAILS</p>
                             <div className=' flex gap-1'>
                                 <img src="/images/home/star-1.png" alt="" />
                                 <img src="/images/home/star-1.png" alt="" />
@@ -116,12 +116,12 @@ function Hthird() {
 
                 <div className=' flex flex-col items-center space-y-10'>
                     <div>
-                        <h1 className='text-5xl font-bold'>NEW ARRIVALS</h1>
+                        <h1 className='text-5xl lg:text-3xl font-bold'>NEW ARRIVALS</h1>
                     </div>
                     <div className='grid grid-cols-4 items-center justify-center gap-6 lg:grid-cols-2 lg:gap-1'>
 
 
-                        <div>
+                        <div className='w-auto'>
                             <img src="/images/home/s4.png" alt="" />
                             <p className='text-xl font-bold'>VERTICAL STRIPED SHIRT</p>
                             <div className=' flex gap-1'>
@@ -147,9 +147,9 @@ function Hthird() {
 
 
 
-                        <div>
+                        <div className='w-auto'>
                             <img src="/images/home/s5.png" alt="" />
-                            <p className='text-xl font-bold'>COURAGE GRAPHIC T-SHIRT</p>
+                            <p className='text-lg font-bold'>COURAGE GRAPHIC T-SHIRT</p>
                             <div className=' flex gap-1'>
                                 <img src="/images/home/star-1.png" alt="" />
                                 <img src="/images/home/star-1.png" alt="" />

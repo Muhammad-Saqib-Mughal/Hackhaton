@@ -17,13 +17,13 @@ function Hfifth() {
 
                 <div className='grid grid-cols-3 lg:grid-cols-1 px-5'>
 
-                    <div className='w-[400px] h-[250px] border space-y-4 p-5 rounded-3xl'>
+                    <div className='w-[400px] lg:w-auto h-[250px] border space-y-4 p-5 rounded-3xl'>
                         <img src="/images/home/5stars.png" alt="" />
                         <span className='flex gap-2 items-center'>
                         <h1>Sarah M.</h1>
                         <img src="/images/home/verify.png" alt="" />
                         </span>
-                        <p className='text-gray-500'>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                        <p className='text-gray-500 lg:text-sm'>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
                     </div>
 
 
